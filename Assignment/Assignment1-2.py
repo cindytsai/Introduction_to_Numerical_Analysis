@@ -6,7 +6,7 @@ def func(x):
     value = 0.
     ### START YOUR CODE HERE ###
     for n in range(1, 6):
-        p = float(n) * math.pi * x
+        p = n * math.pi * x
         value = value + (1 + (math.sin(p) * x) + (math.cos(p) * x**2))
     #### END YOUR CODE HERE ####
     return value
