@@ -1,4 +1,4 @@
-# Introduction_to_Numerical_Analysis
+# Introduction to Numerical Analysis
 Course _Introduction to Numerical Analysis_ at NTU
 
 ## Lecture
