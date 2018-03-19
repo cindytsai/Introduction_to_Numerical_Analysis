@@ -9,8 +9,8 @@ Course _Introduction to Numerical Analysis_ at NTU
   practice1 : Integral with Simpson 3/8 method.<br />
   practice2 : Difference between different interval using `scipy.integrate`.<br />
   - **Lecture203** -Numpy array and matplotlib.<br />
-  practice1 : Some basic array operation.
-  practice2 : Using `matplotlib.pyplot` to plot functions.
+  practice1 : Some basic array operation.<br />
+  practice2 : Using `matplotlib.pyplot` to plot functions.<br />
   
 ## Assignment
   - **Assignment1**<br />
