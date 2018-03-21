@@ -19,3 +19,4 @@ Course _Introduction to Numerical Analysis_ at NTU
   1-3 : Convolution, Breit-Wigner distribution, Gaussian distribution using `scipy.integrate`<br />
   - **Assignment2**<br />
   2-1 : Array operation using `np.fromfunction`<br />
+  2-2 : Array operation using `np.fromfunction`<br />
