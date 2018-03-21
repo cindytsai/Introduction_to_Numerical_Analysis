@@ -17,4 +17,5 @@ Course _Introduction to Numerical Analysis_ at NTU
   1-1 : Simply numerical differential using `scipy.misc`<br/>
   1-2 : Simply numerical integration using `scipy.integrate`<br />
   1-3 : Convolution, Breit-Wigner distribution, Gaussian distribution using `scipy.integrate`<br />
-  
+  - **Assignment2**<br />
+  2-1 : Array operation using `np.fromfunction`<br />
