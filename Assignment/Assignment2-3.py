@@ -29,18 +29,17 @@ def game_of_life(p):
     ori = np.zeros((20,13))
     for u in range(1,19):
         for v in range(1,12):
-            index = 0
             num = np.sum(p[u-1:u+2,v-1:v+2]) - p[u,v]
-            if p[u,v] == 1 and index == 0:
+            if p[u,v] == 1:
                 if num < 2 :
-                    (index, ori[u,v]) = (1,0)
+                    ori[u,v] = 0
                 if num == 2 or num == 3 :
-                    (index, ori[u,v]) = (1,1)
+                    ori[u,v] = 1
                 if num > 3 :
-                    (index, ori[u,v]) = (1,0)
-            if p[u,v] == 0 and index == 0:
+                    ori[u,v] = 0
+            if p[u,v] == 0:
                 if num == 3 :
-                    (index, ori[u,v]) = (1,1)
+                    ori[u,v] = 1
     p = ori[1:19, 1:12]
     #### END YOUR CODE HERE ####
     return p
