@@ -20,4 +20,4 @@ Course _Introduction to Numerical Analysis_ at NTU
   - **Assignment2**<br />
   2-1 : Array operation using `np.fromfunction`<br />
   2-2 : Array operation using `np.fromfunction`<br />
-  2-3 : Array operation on _Game of Life_.<br />
+  2-3 : `np.array` playing _Game of Life_.<br />
