@@ -11,6 +11,7 @@ print ("|A^-1| = ", A_in_det)
 print ("|A|^-1 = ", A_det_in)
 print ("#1 Difference :", round(A_in_det - A_det_in, 5))
 
+
 A_T_in = A.T
 A_T_in = np.linalg.inv(A_T_in)
 A_in_T = np.linalg.inv(A)
@@ -21,6 +22,7 @@ print ("(A^-1).T")
 print (A_in_T)
 print ("#2 Difference :")
 print (np.round(A_T_in - A_in_T, 5))
+
 
 AB_in = np.dot(A,B)
 AB_in = np.linalg.inv(AB_in)
