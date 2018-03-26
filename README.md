@@ -11,6 +11,9 @@ Course _Introduction to Numerical Analysis_ at NTU
   - **Lecture203** -Numpy array and matplotlib.<br />
   practice1 : Some basic array operation.<br />
   practice2 : Using `matplotlib.pyplot` to plot functions.<br />
+  - **Lecture204** -Linear algebra and matplotlib imgae processing.<br />
+  practice1 : Use `np.linalg.inv()` and `np.linalg.det()` to verfiy some properties.<br />
+  practice2 : Use `plt.imread()` to read and process image, `plt.imshow()` and `plt.show()`.<br />
   
 ## Assignment
   - **Assignment1**<br />
