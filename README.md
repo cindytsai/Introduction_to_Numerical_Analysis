@@ -24,3 +24,5 @@ Course _Introduction to Numerical Analysis_ at NTU
   2-1 : Array operation using `np.fromfunction`.<br />
   2-2 : Array operation using `np.fromfunction`.<br />
   2-3 : Use `np.array` to play _Game of Life_.<br />
+  - **Assignment3**<br />
+  3-1 : Use `scipy.linalg.solve` to solve equation.
