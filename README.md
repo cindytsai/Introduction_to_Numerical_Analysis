@@ -25,4 +25,6 @@ Course _Introduction to Numerical Analysis_ at NTU
   2-2 : Array operation using `np.fromfunction`.<br />
   2-3 : Use `np.array` to play _Game of Life_.<br />
   - **Assignment3**<br />
-  3-1 : Use `scipy.linalg.solve` to solve equation.
+  3-1 : Use `scipy.linalg.solve` to solve equation.<br />
+  3-2 : Use `np.diag`,`np.sqrt` to compute covariance matrix into correlation matrix.<br />
+  3-3 : Computing least square. Code involved `np.linspace`, `np.dot`, `np.transpose`.<br />
