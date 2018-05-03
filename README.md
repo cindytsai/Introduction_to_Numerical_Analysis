@@ -31,3 +31,7 @@ Course _Introduction to Numerical Analysis_ at NTU
   3-1 : Use `scipy.linalg.solve` to solve equation.<br />
   3-2 : Use `np.diag`,`np.sqrt` to compute covariance matrix into correlation matrix.<br />
   3-3 : Computing least square. Code involved `np.linspace`, `np.dot`, `np.transpose`.<br />
+  - **Assignment4**<br />
+  4-1 : Use `scipy.optimize.newton` to find root by Newton's method.<br />
+  4-2 : Use `scipy.optimize.minimize` to fit data with error range by calculating X^2.<br />
+  4-3 : Use `np.hstack`, `plt.hist` to build histograms. Then try to maximize a given function by `scipy.optimize.fmin`.<br />
