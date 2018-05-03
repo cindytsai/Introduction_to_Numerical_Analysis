@@ -1,18 +1,21 @@
-from scipy import optimize
 import numpy as np
-import math
+import scipy.optimize as opt
 
-def f(x):
-    func = math.fabs(math.sin(x) / ((x / (2 * math.pi))**x + math.pi / 8.))
-    func = func - (x / (2 * math.pi))
-    func = func + (x / (2 * math.pi))**2
-    func = func - (1. / 2.)
-    return func
+def func(x):
+    value = 0.
+    ### START YOUR CODE HERE ###
+    value = np.fabs(np.sin(x) / ((x / (2 * np.pi))**x + np.pi / 8.))
+    value = value - (x / (2 * np.pi))
+    value = value + (x / (2 * np.pi))**2
+    value = value - (1./2.)
+    #### END YOUR CODE HERE ####
+    return value
 
-def f_solver():
-    root1 = optimize.newton(f, 0)
-    root2 = optimize.newton(f, 3)
-    root3 = optimize.newton(f, 3.5)
-    root4 = optimize.newton(f, 5)
-    root5 = optimize.newton(f, 8)
-    return np.array([root1, root2, root3, root4, root5])
+def find_all_roots():
+    output = np.zeros(5)
+    ### START YOUR CODE HERE ###
+    para = [0,3,3.5,5,8]
+    for i in range(5):
+        output[i] = opt.newton(func, para[i])
+    #### END YOUR CODE HERE ####
+    return output
