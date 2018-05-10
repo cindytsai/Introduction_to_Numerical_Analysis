@@ -27,5 +27,3 @@ def find_the_best_window():
         output = r.x.round(2)
     #### END YOUR CODE HERE ####
     return output
-
-print (find_the_best_window())
