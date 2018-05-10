@@ -19,11 +19,13 @@ def find_the_best_window():
         L, U = p[0], p[1]
         Ns = np.sum((vs > L) * (vs < U))
         Nb = np.sum((vb > L) * (vb < U))
-        z_inv = np.sqrt(Ns + Nb) / Ns
+        z_inv = -Ns / np.sqrt(Ns + Nb)
         return z_inv
     p_init = np.array([2.2,3.5])
-    r = opt.fmin(func_z,p_init)
-    output[0] = round(r[0],2)
-    output[1] = round(r[1],2)
+    r = opt.minimize(func_z,p_init,method='Nelder-Mead')
+    if r.success:
+        output = r.x.round(2)
     #### END YOUR CODE HERE ####
     return output
+
+print (find_the_best_window())
