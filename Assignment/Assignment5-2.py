@@ -21,7 +21,7 @@ def f(t,y):
     vy = y[:,3]
     x  = y[:,0]
     y  = y[:,1]
-    def Rij(xi,yi, xj,yj):
+    def Rij(xi,yi,xj,yj):
         return np.sqrt((xi-xj)**2 + (yi-yj)**2)
     def axyi(i):
         axi, ayi = 0, 0
@@ -48,11 +48,14 @@ def solve_for_gravity(delta_t):
     m = data[:,0]
     y = data[:,1:5]
     y = y.reshape(40)
-    sol = solve_ivp(f, [0,delta_t], y)
-    solution = sol.y[:,-1]
-    solution = solution.reshape(10,4)
-    positions = solution[:,0:2]
+    t = 0.
+    t_step = 0.001
+    while t < delta_t:
+        sol = solve_ivp(f,[t,t+t_step],y)
+        y = sol.y[:,-1]
+        t = sol.t[-1]
+    y = y.reshape(10,4)
+    positions = y[:,0:2]
     #### END YOUR CODE HERE ####
     return positions
 
-print (solve_for_gravity(10))
