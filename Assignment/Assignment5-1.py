@@ -29,10 +29,5 @@ def flight_distance(theta, v0, k):
         t = sol.t[-1]
         distance = y[0]
         height = y[1]
-        print ("time    ", t)
-        print ("distance", distance)
-        print ("height  ", height)
     #### END YOUR CODE HERE ####
     return distance
-
-flight_distance(np.pi * 0.25, 5, 0)
