@@ -36,3 +36,7 @@ All codes are using Python36.<br />
   4-1 : Use `scipy.optimize.newton` to find root by Newton's method.<br />
   4-2 : Use `scipy.optimize.minimize` to fit data with error range by calculating X^2.<br />
   4-3 : Use `np.hstack`, `plt.hist` to build histograms. Then try to maximize a given function by `scipy.optimize.minimize`.<br />
+  - **Assignment5**<br />
+  5-1 : Use `scipy.integrate.solve_ivp` to solve position, velocity, acceleration, with resistance force ODE.<br />
+  5-2 : Use `scipy.integrate.solve_ivp` to solve ODE a multi-star system in 2D.<br />
+  5-3 : Use `scipy.integrate.solve_ivp` to solve ODE charged particle moving in magnetic field and electric field.<br />
