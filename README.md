@@ -1,6 +1,6 @@
 # Introduction to Numerical Analysis
-Course _Introduction to Numerical Analysis_ at NTU
-All codes are using Python36
+Course _Introduction to Numerical Analysis_ at NTU.<br />
+All codes are using Python36.<br />
 
 ## Lecture
   - **Lecture201** -Approximation errors and Roundoff errors<br />
