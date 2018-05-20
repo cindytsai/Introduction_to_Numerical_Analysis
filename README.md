@@ -40,3 +40,8 @@ All codes are using Python36.<br />
   5-1 : Use `scipy.integrate.solve_ivp` to solve position, velocity, acceleration, with resistance force ODE.<br />
   5-2 : Use `scipy.integrate.solve_ivp` to solve ODE a multi-star system in 2D.<br />
   5-3 : Use `scipy.integrate.solve_ivp` to solve ODE charged particle moving in magnetic field and electric field.<br />
+  - **Assignment6**<br />
+  6-1 : Use `np.random.rand` to generate random number within the target function distribution.<br />
+  6-2 : Use `np.random.rand` to generate a unit circle's chord.<br />
+  6-3 : Use `np.random.rand` to generate smeared exponential decay Gaussian distribution function.<br />
+  
