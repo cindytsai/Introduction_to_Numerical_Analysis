@@ -49,7 +49,7 @@ def solve_for_gravity(delta_t):
     y = data[:,1:5]
     y = y.reshape(40)
     t = 0.
-    t_step = delta / 100.
+    t_step = delta_t / 100.
     while t < delta_t:
         sol = solve_ivp(f,[t,t+t_step],y)
         y = sol.y[:,-1]
